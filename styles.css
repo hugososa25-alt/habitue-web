@@ -35,4 +35,11 @@ h1{
 .category:hover{
     background:#ffd000;
     color:#111;
+.banner{
+    width:100%;
+    max-width:1200px;
+    display:block;
+    margin:20px auto;
+    border-radius:20px;
+}
 }
