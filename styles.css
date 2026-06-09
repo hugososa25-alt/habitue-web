@@ -1,0 +1,38 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    color:#ffd000;
+    font-size:36px;
+    margin-top:20px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#ccc;
+    margin-bottom:30px;
+}
+
+.category{
+    background:#1c1c1c;
+    border:2px solid #ffd000;
+    border-radius:20px;
+    padding:22px;
+    margin:15px 0;
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.category:hover{
+    background:#ffd000;
+    color:#111;
+}
