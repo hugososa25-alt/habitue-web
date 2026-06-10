@@ -41,5 +41,41 @@ h1{
     display:block;
     margin:30px auto;
     border-radius:20px;
+.back{
+    display:inline-block;
+    color:#ffcc00;
+    text-decoration:none;
+    margin:20px;
+    font-weight:bold;
+}
+
+.product-card{
+    max-width:400px;
+    margin:30px auto;
+    background:#111;
+    border:2px solid #ffcc00;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    padding:20px;
+}
+
+.product-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-card h2{
+    color:#fff;
+    margin:15px 0;
+}
+
+.product-card p{
+    color:#ccc;
+}
+
+.product-card strong{
+    color:#ffcc00;
+    font-size:28px;
 }
 }
